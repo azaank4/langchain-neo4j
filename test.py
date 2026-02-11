@@ -29,3 +29,9 @@ llm_transformer = LLMGraphTransformer(llm = llm)
 graph_documents = llm_transformer.convert_to_graph_documents(documents)
 print("Converted documents into graph using LLM")
 print(graph_documents)
+
+# View all the nodes created
+print(graph_documents[0].nodes)
+
+# View all the relationships created
+print(graph_documents[0].relationships)
