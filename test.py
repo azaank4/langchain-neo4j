@@ -22,7 +22,7 @@ Elon Reeve Musk (/ilɒn/ EE-lon; born June 28, 1971) is a businessman and entrep
 
 # Convert text to proper document
 documents = [Document(page_content = sample_text)]
-print("Converte sample text into documents")
+print("Converted sample text into documents")
 
 # Using LLM to convert the document into proper nodes and relationship graph
 llm_transformer = LLMGraphTransformer(llm = llm)
