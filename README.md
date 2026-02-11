@@ -1,19 +1,37 @@
-Step 1:
-create venv
+1. **Project Header**
+   - Title: LangChain Neo4j Knowledge Graph Builder
+   - Clear description of the project's purpose
+   - Badge section (optional)
 
-Step 2:
-pip install -r requirements.txt
+2. **Features Section**
+   - Text-to-Graph transformation using LLMGraphTransformer
+   - Neo4j graph database integration
+   - Natural language to Cypher query via AI agents
+   - CSV data loading into Neo4j
 
-Step 3:
-Set up .gitignore file and create env file
+3. **Prerequisites**
+   - Python 3.11+
+   - Neo4j Database (with APOC plugin)
+   - Groq API key
 
-Step 4:
-config.py - Set up all the credentials
+4. **Installation Steps** (enhanced)
+   - Virtual environment setup
+   - Install dependencies
+   - Environment configuration
 
-Step 5:
-main.py
-    - Install APOC plugin if running locally on Neo4J desktop and restart the database
-    - Initialize Neo4J database and Groq LLM
-    - Paste sample text, convert it into documents
-    - Using LLMGraphTransformer, convert the provided documents into graph
-    - Ensure the model being used for graph transformation supports tool call (openai/gpt-oss-120b)
+5. **Environment Variables**
+   - Table format showing all required variables
+
+6. **Usage Examples**
+   - `test.py` - Converting text to knowledge graphs
+   - `rag.ipynb` - Loading movie data & natural language querying
+
+7. **Project Structure**
+   - Tree view of files and their purposes
+
+8. **Technologies Used**
+   - LangChain, Neo4j, Groq, etc.
+
+9. **Important Notes**
+   - APOC plugin requirement
+   - Model requirements (tool call support)
